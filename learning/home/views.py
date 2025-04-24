@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse("Hello, world. You're at the home index.")
 
 def intro(request):
-    return HttpResponse("Hello, world. You're at the intro page.")
+    return HttpResponse("Hello, world. I changed this line.")
